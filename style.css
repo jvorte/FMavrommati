@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Libre+Barcode+128&family=Montserrat:wght@100&family=Poppins:wght@600&family=Shadows+Into+Light&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Libre+Barcode+128&family=Montserrat:wght@100&family=Poppins:wght@400&family=Shadows+Into+Light&family=Splash&display=swap');
 
 
 /* font-family: 'Comforter Brush', cursive;
@@ -12,6 +12,7 @@ font-family: 'Splash', cursive; */
 #top{
 
     height: 100vh;
+    background-color: #f3eded;
 }
 #title{
     padding-top: 18vh;
@@ -21,8 +22,9 @@ font-family: 'Splash', cursive; */
 
 }
 #navbarNavDropdown{
-    padding-left: 750px;
+    padding-left: 620px;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
