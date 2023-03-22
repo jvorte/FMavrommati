@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Libre+Barcode+128&family=Montserrat:wght@100&family=Poppins:wght@600&family=Shadows+Into+Light&family=Splash&display=swap');
+
+
+/* font-family: 'Comforter Brush', cursive;
+font-family: 'Libre Barcode 128', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Splash', cursive; */
+
+
+#top{
+
+    height: 100vh;
+}
+#title{
+    padding-top: 18vh;
+    font-size: 7vw;
+    font-family: 'Montserrat', sans-serif;
+     text-shadow: rgb(77, 75, 75) 1px 0 10px;
+
+}
+#navbarNavDropdown{
+    padding-left: 770px;
+    font-size: 20px;
+}
+
+
+
+/* =====================MEDIA============================= */
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+
+    #title{
+        padding-top: 18vh;
+        font-size: 12vw;
+        font-family: 'Montserrat', sans-serif;
+         text-shadow: rgb(77, 75, 75) 1px 0 10px;
+    
+    }
+    #navbarNavDropdown{
+        padding-left: 0px;
+    }
+
+  }
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {...}
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {...}
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {...}
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (max-width: 1024px) {
+
+  }
+  @media only screen and (max-width: 1800px) {
+
+  }
