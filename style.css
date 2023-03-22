@@ -44,7 +44,7 @@ font-family: 'Splash', cursive; */
 /* --------------------about---------------------------- */
 #about{
     height:100vh;
-    background-image: url(img/office.jpg);
+    background-image: url(img/1.jpg);
     background-position: right 72% bottom 45%;
 }
 /* --------------------end about---------------------------- */
@@ -55,14 +55,16 @@ font-family: 'Splash', cursive; */
 
 #education{
     height:100vh;
-    background-color: rgb(218, 135, 35);
+    background-image: url(img/office.jpg);
+    background-position: right 72% bottom 45%;
 }
 /* -------------------end-education---------------------------- */
 /* ---------------------seminars--------------------------- */
 
 #seminars{
     height:100vh;
-    background-color: rgb(78, 55, 26);
+    background-image: url(img/office.jpg);
+    background-position: right 72% bottom 45%;
 }
 /* -------------------end--seminars--------------------------- */
 
