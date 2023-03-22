@@ -12,7 +12,7 @@ font-family: 'Splash', cursive; */
 #top{
 
     height: 100vh;
-    /* background-color: #f3eded; */
+
 }
 #title{
     padding-top: 22vh;
@@ -43,8 +43,9 @@ font-family: 'Splash', cursive; */
 
 /* --------------------about---------------------------- */
 #about{
-    height: 500px;
-    background-color: bisque;
+    height:100vh;
+    background-image: url(img/office.jpg);
+    background-position: right 72% bottom 45%;
 }
 /* --------------------end about---------------------------- */
 
@@ -53,14 +54,14 @@ font-family: 'Splash', cursive; */
 /* ---------------------education--------------------------- */
 
 #education{
-    height: 500px;
+    height:100vh;
     background-color: rgb(218, 135, 35);
 }
 /* -------------------end-education---------------------------- */
 /* ---------------------seminars--------------------------- */
 
 #seminars{
-    height: 500px;
+    height:100vh;
     background-color: rgb(78, 55, 26);
 }
 /* -------------------end--seminars--------------------------- */
@@ -68,7 +69,7 @@ font-family: 'Splash', cursive; */
 
 /* ---------------------experience--------------------------- */
 #experience{
-    height: 500px;
+    height:100vh;
     background-color: rgb(68, 61, 53);
 }
 /* -----------------end---experience---------------------------- */
