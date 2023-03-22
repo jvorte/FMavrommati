@@ -8,7 +8,7 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Splash', cursive; */
 
-
+/* -------------------top----------------------------- */
 #top{
 
     height: 100vh;
@@ -16,7 +16,7 @@ font-family: 'Splash', cursive; */
 }
 #title{
     padding-top: 18vh;
-    font-size: 7vw;
+    font-size: 6vw;
     font-family: 'Montserrat', sans-serif;
      text-shadow: rgb(77, 75, 75) 1px 0 10px;
 
@@ -25,13 +25,50 @@ font-family: 'Splash', cursive; */
     padding-left: 620px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
+ 
 }
 .navbar-brand{
 
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
+#top-img{
+    padding-top: 85px;
+}
+/* -----------------end top------------------------------- */
 
+
+/* --------------------about---------------------------- */
+#about{
+    height: 500px;
+    background-color: bisque;
+}
+/* --------------------end about---------------------------- */
+
+
+
+/* ---------------------education--------------------------- */
+
+#education{
+    height: 500px;
+    background-color: rgb(218, 135, 35);
+}
+/* -------------------end-education---------------------------- */
+/* ---------------------seminars--------------------------- */
+
+#seminars{
+    height: 500px;
+    background-color: rgb(78, 55, 26);
+}
+/* -------------------end--seminars--------------------------- */
+
+
+/* ---------------------experience--------------------------- */
+#experience{
+    height: 500px;
+    background-color: rgb(68, 61, 53);
+}
+/* -----------------end---experience---------------------------- */
 
 
 /* =====================MEDIA============================= */
@@ -48,6 +85,9 @@ font-family: 'Splash', cursive; */
     }
     #navbarNavDropdown{
         padding-left: 0px;
+    }
+    #top-img{
+        padding-top: 0px;
     }
 
   }
