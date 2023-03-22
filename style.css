@@ -12,7 +12,7 @@ font-family: 'Splash', cursive; */
 #top{
 
     height: 100vh;
-    background-color: #f3eded;
+    /* background-color: #f3eded; */
 }
 #title{
     padding-top: 18vh;
