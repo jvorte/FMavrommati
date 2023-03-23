@@ -2,7 +2,7 @@
 
 
 /* font-family: 'Comforter Brush', cursive;
-font-family: 'Libre Barcode 128', cursive;
+
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Shadows Into Light', cursive;
@@ -15,8 +15,10 @@ font-family: 'Splash', cursive; */
 /* a:hover{
     background-color: rgb(102, 102, 99);
 } */
-a:hover, a:active {font-size: 115%;}
-
+a:hover, a:active {font-size: 115%; text-shadow: rgb(77, 75, 75) 1px 0 10px;}
+nav{
+    background-color: #F2F2F2;  
+}
 #top{
 
     height: 100vh;
@@ -32,6 +34,7 @@ a:hover, a:active {font-size: 115%;}
 }
 #sub-title{
     /* text-shadow: rgb(77, 75, 75) 1px 0 10px; */
+
 }
 #navbarNavDropdown{
     padding-left: 470px;
@@ -55,7 +58,7 @@ a:hover, a:active {font-size: 115%;}
     height:100vh;
     /* background-image: url(img/1.jpg);
     background-position: right 72% bottom 45%; */
-    background-color: #181823;
+    background-color: #D1D0CD;
 }
 /* --------------------end about--me-------------------------- */
 
@@ -72,11 +75,13 @@ a:hover, a:active {font-size: 115%;}
 }
 
 #card-edu{
+
     margin: 60px;
     border: none;
     border-radius: 10px;
     text-align: center;
-    
+    background-color: #F2F2F2;
+
 }
 #img-edu{
  height: 250px;
@@ -96,6 +101,7 @@ figure{
     height:100vh;
     /* background-image: url(img/office.jpg);
     background-position: right 72% bottom 45%; */
+    background-color: #161B22;
 }
 /* -------------------end--seminars--------------------------- */
 
@@ -115,7 +121,7 @@ figure{
 /* ------------------------------------------------------- */
 #contact{
     height: 890px;
-    background-color: #181823;
+    background-color: #161B22;
   }
   #contact h1 {
   color: white;
@@ -140,9 +146,9 @@ figure{
        font-size: 15px;
         }
         #contact-text span{
-          color: red;
+          color: rgb(196, 196, 196);
       
-          font-size: 25px;
+          font-size: 22px;
         }
      
         #btn{
