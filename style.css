@@ -12,6 +12,7 @@ font-family: 'Splash', cursive; */
 #top{
 
     height: 100vh;
+    background-color: #F2F2F2;
 
 }
 #title{
@@ -41,13 +42,14 @@ font-family: 'Splash', cursive; */
 /* -----------------end top------------------------------- */
 
 
-/* --------------------about---------------------------- */
+/* --------------------about-me--------------------------- */
 #about{
     height:100vh;
     /* background-image: url(img/1.jpg);
     background-position: right 72% bottom 45%; */
+    background-color: #181823;
 }
-/* --------------------end about---------------------------- */
+/* --------------------end about--me-------------------------- */
 
 
 
@@ -58,11 +60,14 @@ font-family: 'Splash', cursive; */
     height:100vh;
     /* background-image: url(img/office.jpg);
     background-position: right 72% bottom 45%; */
+    background-color: #F2F2F2;
 }
 
 #card-edu{
-    margin: 90px;
+    margin: 80px;
     border: none;
+    border-radius: 10px;
+    text-align: center;
     
 }
 #img-edu{
@@ -70,6 +75,11 @@ font-family: 'Splash', cursive; */
 }
 figure{
     padding-top: 70px;
+    color: #F2F2F2;
+    
+}
+#figure{
+    color: black;
 }
 /* -------------------end-education---------------------------- */
 /* ---------------------seminars--------------------------- */
@@ -84,7 +94,7 @@ figure{
 
 /* ---------------------experience--------------------------- */
 #experience{
-    height:100vh;
+    height:100vh;}
     /* background-color: rgb(68, 61, 53);
 } */
 /* -----------------end---experience---------------------------- */
@@ -96,9 +106,8 @@ figure{
   @media only screen and (max-width: 600px) {
 /* ----------------------top----------------------------------- */
     #title{
-        padding-top: 18vh;
-        font-size: 12vw;
-      
+        padding-top: ;
+        font-size: 12vw;      
     
     }
     #navbarNavDropdown{
