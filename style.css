@@ -107,8 +107,29 @@ font-family: 'Splash', cursive; */
 
     /* -----------------------end top---------------------------------- */
 
-    /* --------------------------------------------------------- */
-    /* --------------------------------------------------------- */
+    /* ------------------------education--------------------------------- */
+
+    #education{
+        height:auto;
+        /* background-image: url(img/office.jpg);
+        background-position: right 72% bottom 45%; */
+    }
+    
+    #card-edu{
+ 
+        border: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+        
+    }
+    #img-edu{
+     height: 60px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto
+    }
+    /* ---------------------end---education--------------------------------- */
     /* --------------------------------------------------------- */
     /* --------------------------------------------------------- */
 
