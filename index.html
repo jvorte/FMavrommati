@@ -41,6 +41,9 @@
                   <li class="nav-item">
                     <a class="nav-link" href="#experience">Experience</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Me</a>
+                  </li>
                   <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Dropdown link
@@ -265,15 +268,69 @@
 
 
 
-<!-- ------------------------------------------------------------------------------------------------------------ -->
-<!-- ------------------------------------------------------------------------------------------------------------ -->
+<!-- -------------------------------------------contact----------------------------------------------------------------- -->
+
+<div class="container-fluid" id="contact">
+
+
+
+  <div class="container" id="contact">
+
+    <div class="row" id="contact-center">
+  
+      <div class="col-sm-6" id="contact-text">
+        <h1 class="shaking">Contact Me</h1>  
+        <p>Wenn Sie an einer Zusammenarbeit interessiert sind, können Sie mich einfach kontaktieren.</p>
+        <p>Handy Nummer : <span> +4368864818152</span></p><p>Email : <span> jvortelinas@gmail.com</span></p>
+   
+      </div>
+      
+      <div class="col-sm-6" id="contact-input">
+  
+  
+        <script src="lib/index.js"></script>
+  
+        <script
+          type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+        ></script>
+        <script type="text/javascript">
+          (function () {
+            emailjs.init("5XON576ncESEV7opm");
+          })();
+          
+        </script>
+        <h6 id="or" >-oder senden Sie mir eine Nachricht-</h6>
+    <div class="mb-3">
+          <label for="formGroupExampleInput" class="form-label">Name</label>
+          <input type="text" class="form-control"  id="name"placeholder="">
+        </div>
+        <div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">Email</label>
+          <input type="text" class="form-control"    id="email" placeholder="">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Nachricht</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+          <button class="btn "  id="btn" onclick="sendMail()" type="submit">Schicken</button>
+        </div>
+  
+      </div>   
+    </div>
+  </div>
+  <!-- ------------------------------------------------------------------------------------------------------------------------ -->
+
+  </div>
+<!-- --------------------------------------end------contact---------------------------------------------------------------- -->
 
 
 
 <!-- ------------------------------------------------------------------------------------------------------------ -->
 <!-- ------------------------------------------------------------------------------------------------------------ -->
 
-
+<script src="lib/typed.js"></script>
 
     <script>
       AOS.init();

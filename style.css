@@ -9,6 +9,14 @@ font-family: 'Shadows Into Light', cursive;
 font-family: 'Splash', cursive; */
 
 /* -------------------top----------------------------- */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+/* a:hover{
+    background-color: rgb(102, 102, 99);
+} */
+a:hover, a:active {font-size: 115%;}
+
 #top{
 
     height: 100vh;
@@ -26,7 +34,7 @@ font-family: 'Splash', cursive; */
     /* text-shadow: rgb(77, 75, 75) 1px 0 10px; */
 }
 #navbarNavDropdown{
-    padding-left: 620px;
+    padding-left: 470px;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
  
@@ -64,7 +72,7 @@ font-family: 'Splash', cursive; */
 }
 
 #card-edu{
-    margin: 80px;
+    margin: 60px;
     border: none;
     border-radius: 10px;
     text-align: center;
@@ -98,6 +106,58 @@ figure{
     /* background-color: rgb(68, 61, 53);
 } */
 /* -----------------end---experience---------------------------- */
+
+/* -------------------contact---------------------------- */
+#contact{
+    height:100vh;
+    background-color: #181823;
+}
+/* ------------------------------------------------------- */
+#contact{
+    height: 890px;
+    background-color: #181823;
+  }
+  #contact h1 {
+  color: white;
+
+  font-size: 60px;
+  padding-top: 270px;
+  }
+  #contact p ,label {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    
+    }
+  #contact-text{
+   
+    }
+    #contact-input{
+      padding-left: ;
+      padding-top: 250px;
+      }
+      #contact-input label{
+       color: #f3eef8;
+       font-size: 15px;
+        }
+        #contact-text span{
+          color: red;
+      
+          font-size: 25px;
+        }
+     
+        #btn{
+          background-color:#1F252B ;
+          color:white ;
+     
+          width: 100%;
+        }
+        #or{
+          color: #868889;
+          font-family: 'Poppins', sans-serif;
+          text-align: center;
+        }
+  
+/* -----------------end-contact---------------------------- */
 
 
 /* =====================MEDIA============================= */
@@ -143,6 +203,38 @@ figure{
     }
     /* ---------------------end---education--------------------------------- */
     /* --------------------------------------------------------- */
+    #contact h1 {
+
+        font-size: 30px;
+        padding-top: 100px;
+        }
+      
+        #contact-input{
+          padding-left: ;
+          padding-top: 20px;
+          }
+          #contact{
+            margin-top: 10px;
+            height: 580px;
+          
+          }
+          #contact-center{
+           margin-top: 40px;
+      }
+          #contact-text {
+          text-align: center;
+          font-size: 13px;
+          }
+      
+          #contact-input label{
+       
+            font-size: 13px;
+             }
+      
+          #contact-text span{
+         
+            font-size: 18px;
+          }
     /* --------------------------------------------------------- */
 
   }
