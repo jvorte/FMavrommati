@@ -51,12 +51,22 @@ font-family: 'Splash', cursive; */
 
 
 
+
 /* ---------------------education--------------------------- */
 
 #education{
     height:100vh;
-    background-image: url(img/office.jpg);
-    background-position: right 72% bottom 45%;
+    /* background-image: url(img/office.jpg);
+    background-position: right 72% bottom 45%; */
+}
+
+#card-edu{
+    margin: 90px;
+    border: none;
+    
+}
+#img-edu{
+ height: 250px;
 }
 /* -------------------end-education---------------------------- */
 /* ---------------------seminars--------------------------- */
